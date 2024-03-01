@@ -495,14 +495,14 @@
       "typeAValue": "Digita un valore...",
       "layout": "Disposizione",
       "databaseLayout": "Disposizione",
+      "viewList": "Viste del database",
       "editView": "Modifica vista",
       "boardSettings": "Impostazioni della bacheca",
       "calendarSettings": "Impostazioni del calendario",
       "createView": "Nuova vista",
       "duplicateView": "Duplica vista",
       "deleteView": "Elimina vista",
-      "numberOfVisibleFields": "{} mostrato",
-      "viewList": "Viste del database"
+      "numberOfVisibleFields": "{} mostrato"
     },
     "textFilter": {
       "contains": "Contiene",
@@ -552,7 +552,15 @@
       "onOrAfter": "È in corrispondenza o dopo",
       "between": "È tra",
       "empty": "È vuoto",
-      "notEmpty": "Non è vuoto"
+      "notEmpty": "Non è vuoto",
+      "choicechipPrefix": {
+        "before": "Prima",
+        "after": "Dopo",
+        "onOrBefore": "Durante o prima",
+        "onOrAfter": "Durante o dopo",
+        "isEmpty": "È vuoto",
+        "isNotEmpty": "Non è vuoto"
+      }
     },
     "numberFilter": {
       "equal": "Uguale",
@@ -581,6 +589,7 @@
       "multiSelectFieldName": "Selezione multipla",
       "urlFieldName": "URL",
       "checklistFieldName": "Lista di controllo",
+      "relationFieldName": "Relazione",
       "numberFormat": "Formato numerico",
       "dateFormat": "Formato data",
       "includeTime": "Includi il tempo",
@@ -596,6 +605,8 @@
       "timeFormatTwentyFourHour": "24 ore",
       "clearDate": "Pulisci data",
       "dateTime": "Data e ora",
+      "startDateTime": "Data d'inizio",
+      "endDateTime": "Data di fine",
       "failedToLoadDate": "Impossibile caricare il valore della data",
       "selectTime": "Seleziona l'ora",
       "selectDate": "Seleziona la data",
@@ -630,6 +641,8 @@
     "sort": {
       "ascending": "Ascendente",
       "descending": "Discendente",
+      "by": "Per",
+      "empty": "Nessun ordinamento attivo",
       "cannotFindCreatableField": "Impossibile trovare un campo adatto per l'ordinamento",
       "deleteAllSorts": "Elimina tutti gli ordinamenti",
       "addSort": "Aggiungi ordinamento",
@@ -678,10 +691,17 @@
       "hideComplete": "Nascondi le attività completate",
       "showComplete": "Mostra tutte le attività"
     },
+    "relation": {
+      "relatedDatabasePlaceLabel": "Database correlato",
+      "relatedDatabasePlaceholder": "Nessuno",
+      "inRelatedDatabase": "In",
+      "emptySearchResult": "Nessun record trovato"
+    },
     "menuName": "Griglia",
     "referencedGridPrefix": "Vista di",
     "calculate": "Calcolare",
     "calculationTypeLabel": {
+      "none": "Nessuno",
       "average": "Media",
       "max": "Massimo",
       "median": "Medio",
@@ -747,6 +767,7 @@
       "numberedList": "Elenco numerato",
       "bulletedList": "Elenco puntato",
       "todoList": "Lista di cose da fare",
+      "callout": "Callout",
       "cover": {
         "changeCover": "Cambia copertina",
         "colors": "Colori",
@@ -790,7 +811,8 @@
         "left": "Sinistra",
         "center": "Centro",
         "right": "Giusto",
-        "defaultColor": "Predefinito"
+        "defaultColor": "Predefinito",
+        "depth": "Profondità"
       },
       "image": {
         "copiedToPasteBoard": "Il link dell'immagine è stato copiato negli appunti",
@@ -829,6 +851,9 @@
       },
       "date": "Data",
       "emoji": "Emoji"
+    },
+    "outlineBlock": {
+      "placeholder": "Sommario"
     },
     "textBlock": {
       "placeholder": "Digita '/' per i comandi"
@@ -935,6 +960,7 @@
       "expandTooltip": "Visualizza i gruppi nascosti"
     },
     "cardDetail": "Dettagli della carta",
+    "cardActions": "Azioni delle carte",
     "cardDuplicated": "La carta è stata duplicata",
     "cardDeleted": "La carta è stata eliminata",
     "showOnCard": "Mostra sui dettagli della carta",
@@ -976,10 +1002,10 @@
       "layoutDateField": "Layout calendario per",
       "changeLayoutDateField": "Modifica del campo di layout",
       "noDateTitle": "Nessuna data",
+      "noDateHint": "Gli eventi non programmati verranno visualizzati qui",
       "unscheduledEventsTitle": "Eventi non programmati",
       "clickToAdd": "Fare clic per aggiungere al calendario",
-      "name": "Disposizione del calendario",
-      "noDateHint": "Gli eventi non programmati verranno visualizzati qui"
+      "name": "Disposizione del calendario"
     },
     "referencedCalendarPrefix": "Vista di",
     "quickJumpYear": "Salta a"
@@ -1029,6 +1055,7 @@
     "selectSkinTone": "Seleziona la tonalità della pelle",
     "remove": "Rimuovi emoji",
     "categories": {
+      "smileys": "Faccine ed Emoticons",
       "people": "Persone e corpo",
       "animals": "Animali e natura",
       "food": "Cibo e bevande",
@@ -1071,6 +1098,7 @@
     "reminderLabel": "Promemoria",
     "selectReminder": "Seleziona il promemoria",
     "reminderOptions": {
+      "none": "Nessuno",
       "atTimeOfEvent": "Ora dell'evento",
       "fiveMinsBefore": "5 minuti prima",
       "tenMinsBefore": "10 minuti prima",
