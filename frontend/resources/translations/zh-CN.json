@@ -888,10 +888,10 @@
       "addToColumnBottomTooltip": "在底部添加一张新卡片",
       "renameColumn": "改名",
       "hideColumn": "隐藏",
-      "groupActions": "组操作",
       "newGroup": "新建组",
       "deleteColumn": "删除",
-      "deleteColumnConfirmation": "这将删除该组及其中的所有卡片。你确定你要继续吗？"
+      "deleteColumnConfirmation": "这将删除该组及其中的所有卡片。你确定你要继续吗？",
+      "groupActions": "组操作"
     },
     "hiddenGroupSection": {
       "sectionTitle": "私密组",
